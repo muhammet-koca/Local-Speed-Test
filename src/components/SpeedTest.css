@@ -1,0 +1,54 @@
+/* SpeedTest.css */
+.speed-test-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.speed-test-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.speed-test-button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.speed-test-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.progress-container {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  height: 30px;
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+
+.info-text {
+  font-size: 18px;
+  margin: 10px 0;
+}
